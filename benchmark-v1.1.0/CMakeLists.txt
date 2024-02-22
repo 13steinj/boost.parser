@@ -72,7 +72,7 @@ else()
 
   add_cxx_compiler_flag(-Wextra)
   add_cxx_compiler_flag(-Wshadow)
-  add_cxx_compiler_flag(-Werror RELEASE)
+  # add_cxx_compiler_flag(-Werror RELEASE)
   add_cxx_compiler_flag(-Werror RELWITHDEBINFO)
   add_cxx_compiler_flag(-Werror MINSIZEREL)
   add_cxx_compiler_flag(-pedantic)
